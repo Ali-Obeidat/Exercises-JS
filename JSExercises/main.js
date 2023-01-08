@@ -15,13 +15,10 @@ function reverseArray(Array) {
         Array[leftIndex] = Array[rightIndex];
         Array[rightIndex] = temp;
 
-
         leftIndex++;
         rightIndex--;
-
     }
 }
-
 
 reverseArray(arr)
 console.log(arr);
@@ -40,7 +37,6 @@ function findDuplicates(arr) {
     }
     return [...duplicates];
 }
-
 
 let output = findDuplicates(arr)
 console.log(output);
